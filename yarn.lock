@@ -3018,7 +3018,7 @@ __metadata:
     react: ^17.0.2
     tiny-invariant: ^1.0.6
   peerDependencies:
-    react: ^16.8.0
+    react: ">=16.8.0"
   languageName: unknown
   linkType: soft
 
@@ -3032,7 +3032,7 @@ __metadata:
     styled-components: ^4.2.1
   peerDependencies:
     "@craftjs/core": ^0.1.0-alpha.1
-    react: ^16.8.0
+    react: ">=16.8.0"
     styled-components: ">= 4"
   languageName: unknown
   linkType: soft
@@ -3042,13 +3042,13 @@ __metadata:
   resolution: "@craftjs/utils@workspace:packages/utils"
   dependencies:
     "@types/react": ^17.0.5
-    immer: ^8.0.1
+    immer: ^9.0.6
     lodash: ^4.17.20
     nanoid: ^3.1.23
     shallowequal: ^1.1.0
     tiny-invariant: ^1.0.6
   peerDependencies:
-    react: ^16.8.0
+    react: ">=16.8.0"
   languageName: unknown
   linkType: soft
 
@@ -13926,10 +13926,17 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"immer@npm:8.0.1, immer@npm:^8.0.1":
+"immer@npm:8.0.1":
   version: 8.0.1
   resolution: "immer@npm:8.0.1"
   checksum: a8c8d531af8f968f4d5a2ec3c5eeb6dd6933c69d216b3f8c55275e34c87926d556db4e3d81f5f038e66f9886e874da4ab4f7ffe228e33d718593820e2f57b68f
+  languageName: node
+  linkType: hard
+
+"immer@npm:^9.0.6":
+  version: 9.0.21
+  resolution: "immer@npm:9.0.21"
+  checksum: c5cc910d3ab63a114ae19225b8f6fb435b0dbe60ce2692f83ddec69c44d53d3fa7c96d84332ce471b125f6de0a54ee352e0218904bc1622ec6565e7d24230653
   languageName: node
   linkType: hard
 
